@@ -1,11 +1,11 @@
 name: Publish Website
-
+Globlost.com
 on:
   push:
     branches:
       - trunk
   workflow_dispatch:
-jobs:
+jobs:woner
   Build-Artifact-Action:
     name: Build-Artifact-Action
     runs-on: ubuntu-latest
